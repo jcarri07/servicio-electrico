@@ -217,7 +217,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pb-4">
                 <a
                   href="tel:04144091275"
                   className="flex items-center justify-center space-x-3 bg-white/5 border border-white/10 p-6 rounded-2xl hover:bg-electric-yellow hover:text-black hover:border-electric-yellow transition-all font-bold group"
@@ -227,6 +227,22 @@ function App() {
                 </a>
                 <a
                   href="https://wa.me/584144091275"
+                  className="flex items-center justify-center space-x-3 bg-[#25D366] text-white p-6 rounded-2xl hover:saturate-150 transition-all font-bold"
+                >
+                  <MessageCircle />
+                  <span>WhatsApp</span>
+                </a>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <a
+                  href="tel:04144188680"
+                  className="flex items-center justify-center space-x-3 bg-white/5 border border-white/10 p-6 rounded-2xl hover:bg-electric-yellow hover:text-black hover:border-electric-yellow transition-all font-bold group"
+                >
+                  <Phone className="group-hover:animate-bounce" />
+                  <span>0414-4188680</span>
+                </a>
+                <a
+                  href="https://wa.me/58414188680"
                   className="flex items-center justify-center space-x-3 bg-[#25D366] text-white p-6 rounded-2xl hover:saturate-150 transition-all font-bold"
                 >
                   <MessageCircle />
