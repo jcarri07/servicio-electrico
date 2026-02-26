@@ -226,7 +226,7 @@ function App() {
                   <span>0414-4091275</span>
                 </a>
                 <a
-                  href="https://wa.me/584144188680"
+                  href="https://wa.me/584144091275"
                   className="flex items-center justify-center space-x-3 bg-[#25D366] text-white p-6 rounded-2xl hover:saturate-150 transition-all font-bold"
                 >
                   <MessageCircle />
